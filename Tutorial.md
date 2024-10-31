@@ -22,4 +22,19 @@ Body: output_var = input_var + 3 + return statement (return output_var)
 ### Run or "call" function  
 new_number = add_three(10)
 
+## Data Types
+
+Integer = x = 14
+Floats = nearly_pi = 3.141592653589793238462643383279502884197169399375105820974944
+Booleans = z_one = True / z_five = not z_four
+Strings = w = "Hello, Python!"
+
+Print String length: print(len(w))
+
+Convert float to int = y = 1.0 | z = int(y)
+
+When you add booleans, adding False is equivalent to adding 0, and adding True is equivalent to adding 1.
+
+
+
 
