@@ -73,3 +73,5 @@ print("Maximum:", max(hardcover_sales))
 print("Total books sold in one week:", sum(hardcover_sales))
 
 print("Average books sold in first five days:", sum(hardcover_sales[:5])/5)
+
+Transform into List: print(flowers.split(","))
