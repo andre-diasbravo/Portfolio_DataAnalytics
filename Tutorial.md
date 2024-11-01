@@ -62,12 +62,10 @@ flowers_list.remove("globe thistle")
 
 flowers_list.append("snapdragon")
 
-hardcover_sales = [139, 128, 172, 139, 191, 168, 170]
-
-print("Length of the list:", len(hardcover_sales))
-print("Entry at index 2:", hardcover_sales[2])
-
-print("Minimum:", min(hardcover_sales))
+hardcover_sales = [139, 128, 172, 139, 191, 168, 170]  
+print("Length of the list:", len(hardcover_sales))  
+print("Entry at index 2:", hardcover_sales[2])  
+print("Minimum:", min(hardcover_sales))  
 print("Maximum:", max(hardcover_sales))
 
 print("Total books sold in one week:", sum(hardcover_sales))
