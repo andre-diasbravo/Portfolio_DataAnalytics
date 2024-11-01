@@ -50,12 +50,12 @@ print(flowers_list)
 
 print(len(flowers_list))
 
-print("First entry:", flowers_list[0])
+print("First entry:", flowers_list[0])  
 print("Second entry:", flowers_list[1])
 
-print("First three entries:", flowers_list[:3])
-print("Final two entries:", flowers_list[-2:])  
-First three entries: ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells']
+print("First three entries:", flowers_list[:3])  
+print("Final two entries:", flowers_list[-2:])    
+First three entries: ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells']  
 Final two entries: ['monkshood', 'globe thistle']
 
 flowers_list.remove("globe thistle")
