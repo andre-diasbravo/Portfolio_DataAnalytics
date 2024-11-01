@@ -35,6 +35,13 @@ Convert float to int = y = 1.0 | z = int(y)
 
 When you add booleans, adding False is equivalent to adding 0, and adding True is equivalent to adding 1.
 
+## Conditions and Conditional Statements
+
+![image](https://github.com/user-attachments/assets/b5129c3e-d553-4cb5-8d8e-9c42d3ed38df)
+
+![image](https://github.com/user-attachments/assets/f78e1d15-03e5-42cc-8186-f68de1ce9893)
+
+
 
 
 
