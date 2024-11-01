@@ -41,7 +41,35 @@ When you add booleans, adding False is equivalent to adding 0, and adding True i
 
 ![image](https://github.com/user-attachments/assets/f78e1d15-03e5-42cc-8186-f68de1ce9893)
 
+## Lists
 
+flowers_list = ["pink primrose", "hard-leaved pocket orchid", "canterbury bells", "sweet pea", "english marigold", "tiger lily", "moon orchid", "bird of paradise", "monkshood", "globe thistle"]
 
+print(type(flowers_list))
+print(flowers_list)
 
+print(len(flowers_list))
 
+print("First entry:", flowers_list[0])
+print("Second entry:", flowers_list[1])
+
+print("First three entries:", flowers_list[:3])
+print("Final two entries:", flowers_list[-2:])  
+First three entries: ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells']
+Final two entries: ['monkshood', 'globe thistle']
+
+flowers_list.remove("globe thistle")
+
+flowers_list.append("snapdragon")
+
+hardcover_sales = [139, 128, 172, 139, 191, 168, 170]
+
+print("Length of the list:", len(hardcover_sales))
+print("Entry at index 2:", hardcover_sales[2])
+
+print("Minimum:", min(hardcover_sales))
+print("Maximum:", max(hardcover_sales))
+
+print("Total books sold in one week:", sum(hardcover_sales))
+
+print("Average books sold in first five days:", sum(hardcover_sales[:5])/5)
